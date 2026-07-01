@@ -183,6 +183,7 @@ section{ position: relative; }
   padding-top: clamp(6.5rem, 14vw, 10rem);
   padding-bottom: clamp(6rem, 12vw, 9rem);
 }
+.hero-photo{ position:absolute; inset:0; z-index:0; }
 .hero-photo img{
   width:100%; height:100%; object-fit: cover; object-position: center 30%;
   opacity: .46; filter: saturate(.8) contrast(1.05);
