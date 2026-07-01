@@ -1,0 +1,7 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Roccia Marketing Blog",
+  "url": "https://www.rocciamarketing.com/blog.html",
+  "publisher": { "@type": "MarketingAgency", "name": "Roccia Marketing" }
+}

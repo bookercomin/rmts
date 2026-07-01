@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why \u201cPost More\u201d Is Bad Advice",
+  "description": "Posting more without a strategy just buries your best content. Here's what to fix before you increase volume.",
+  "author": { "@type": "Organization", "name": "Roccia Marketing" },
+  "publisher": { "@type": "Organization", "name": "Roccia Marketing", "logo": { "@type": "ImageObject", "url": "https://www.rocciamarketing.com/images/logo-mark.png" } },
+  "mainEntityOfPage": "https://www.rocciamarketing.com/blog-post-more-is-bad-advice.html"
+}

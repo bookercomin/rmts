@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Real Cost of a \u201cCheap\u201d Ad Manager",
+  "description": "A low management fee can hide a much bigger cost in wasted ad spend. Here's what to check before you hire.",
+  "author": { "@type": "Organization", "name": "Roccia Marketing" },
+  "publisher": { "@type": "Organization", "name": "Roccia Marketing", "logo": { "@type": "ImageObject", "url": "https://www.rocciamarketing.com/images/logo-mark.png" } },
+  "mainEntityOfPage": "https://www.rocciamarketing.com/blog-cost-of-cheap-ad-manager.html"
+}

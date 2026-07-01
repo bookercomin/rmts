@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Digital Marketing Services",
+  "provider": { "@type": "MarketingAgency", "name": "Roccia Marketing", "url": "https://www.rocciamarketing.com/" },
+  "areaServed": "US",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Roccia Marketing Services",
+    "itemListElement": [
+      { "@type": "Offer", "name": "Base Camp — Social Media Trial Package", "price": "500", "priceCurrency": "USD" },
+      { "@type": "Offer", "name": "Foothills — Social Media Management", "price": "1500", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "1500", "priceCurrency": "USD", "unitCode": "MON" } },
+      { "@type": "Offer", "name": "Ridge Line — Social Media Management", "price": "2250", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "2250", "priceCurrency": "USD", "unitCode": "MON" } },
+      { "@type": "Offer", "name": "Summit — Social Media Management", "price": "2850", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "2850", "priceCurrency": "USD", "unitCode": "MON" } },
+      { "@type": "Offer", "name": "The Ascent — Paid Advertising Management", "price": "2000", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "2000", "priceCurrency": "USD", "unitCode": "MON" } },
+      { "@type": "Offer", "name": "Bedrock SEO (Bundled)", "price": "800", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "800", "priceCurrency": "USD", "unitCode": "MON" } },
+      { "@type": "Offer", "name": "Bedrock SEO (Standalone)", "price": "1300", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "1300", "priceCurrency": "USD", "unitCode": "MON" } },
+      { "@type": "Offer", "name": "Sherpa Sessions — Marketing Coaching", "price": "400", "priceCurrency": "USD", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "400", "priceCurrency": "USD", "unitCode": "MON" } }
+    ]
+  }
+}

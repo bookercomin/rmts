@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MarketingAgency",
+  "name": "Roccia Marketing",
+  "url": "https://www.rocciamarketing.com/",
+  "logo": "https://www.rocciamarketing.com/images/logo-mark.png",
+  "description": "Roccia Marketing is a digital marketing agency offering social media management, paid advertising, SEO and marketing coaching at transparent, affordable pricing.",
+  "sameAs": [
+    "https://www.instagram.com/roccia_marketing/",
+    "https://www.linkedin.com/company/rocciamarketing/"
+  ],
+  "areaServed": "US",
+  "founder": [
+    { "@type": "Person", "name": "Booker Hansen" },
+    { "@type": "Person", "name": "Logan Young" },
+    { "@type": "Person", "name": "Brynlee Fish" }
+  ],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Management" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paid Advertising Management" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Search Engine Optimization" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marketing Coaching" } }
+  ]
+}
