@@ -108,7 +108,7 @@ p{ margin:0 0 1em; }
 
 /* ---------- Nav ---------- */
 .site-header{
-  position: sticky; top:0; z-index: 100;
+  position: sticky; top:0; z-index: 120;
   background: rgba(13,16,48,.88);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255,255,255,.08);
@@ -134,27 +134,34 @@ p{ margin:0 0 1em; }
 .nav-links a.active{ color: var(--white); }
 .nav-cta{ display:flex; align-items:center; gap:1.6rem; }
 .nav-toggle{ display:none; }
+.nav-mobile-cta{ display:none; }
 
 @media (max-width: 880px){
   .nav-links{
-    position: fixed; inset: 64px 0 0 0; background: var(--navy);
+    position: fixed; inset: 66px 0 0 0; background: var(--navy);
     flex-direction: column; justify-content:flex-start; align-items:flex-start;
     padding: 2rem var(--pad); gap: 1.4rem;
     transform: translateY(-8px); opacity:0; pointer-events:none;
     transition: opacity .3s var(--ease), transform .3s var(--ease);
+    z-index: 90; overflow-y: auto;
   }
   .nav-links.open{ opacity:1; transform: translateY(0); pointer-events:auto; }
   .nav-links a{ font-size: 1.3rem; }
-  .nav-cta .btn-outline{ display:none; }
+  .nav-cta{ display:none; }
+  .nav-mobile-cta{
+    display:inline-flex; width:100%; justify-content:center; margin-top: .8rem;
+  }
   .nav-toggle{
-    display:flex; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding: .4rem;
+    display:flex; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer;
+    padding: .6rem; margin: -0.6rem; position:relative; z-index: 110;
   }
   .nav-toggle span{ width: 22px; height:2px; background: var(--white); transition: transform .3s var(--ease), opacity .3s var(--ease); }
   .nav-toggle.open span:nth-child(1){ transform: translateY(7px) rotate(45deg); }
   .nav-toggle.open span:nth-child(2){ opacity:0; }
   .nav-toggle.open span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
+  .nav-brand span{ display:none; }
+  .nav-brand img{ height: 34px; }
 }
-
 /* ---------- Sections ---------- */
 section{ position: relative; }
 .section-dark{ background: var(--navy); color: var(--grey); }
